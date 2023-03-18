@@ -1,3 +1,60 @@
+
+body {
+    background-color: lavender;
+}
+.header {
+    padding: 20px;
+    margin:auto;
+    font-family: 'Verdana', 'Geneva', 'Tahoma', sans-serif;
+    background-color: #6495ed;
+    color: white;
+}
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Verdana', 'Geneva', 'Tahoma', sans-serif;
+    font-size: 20px;
+    
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.h2 {
+    float: right;
+}
+.h3 {
+    float: left;
+    margin-left: 15%;
+    margin-right: 10%;
+    margin-top: 10%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    
+}
+.profile {
+    width: 150px;
+    height: 150px;
+    margin-top: 10%;
+
+}
+p {
+    display: inline-block;
+    margin-left: 50%;
+    margin-right: 10%;
+    
+}
 img {
     width:300px;
     height: 300px;
