@@ -33,21 +33,40 @@ h2 {
     float: right;
 }
 
-h3 {
+ h3 {
     margin-left: 15%;
+    margin-top:0;
+    padding-top: 0;
     font-size: 25px;
-}
+}  
 
 p {
     margin-left: 30%;
 }
+  .worksection {
+    display:flex;
+    align-items: flex-start;
+    gap: 30px;
+    
+    
+} 
+.mainimage {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.workphotos {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+    gap: 10px;
+}
 .img {
-    width: 350px;
+    width: 365px;
     height: 150px;
-    margin-right:25%;
-    margin-left: 35%;
     border: 5px solid indigo;
-    display: inline-block;
 }
 .img:hover {
     box-shadow: 5px 5px 4px 5px thistle;
@@ -57,9 +76,9 @@ p {
     border-color: white;
 }
 #large-work-photo {
-
     width: 750px;
     height: 500px;
+    vertical-align: middle;
 }
 .profile-pic {
     width: 150px;
@@ -68,9 +87,4 @@ p {
     margin-left: 35%;
     border: 5px solid indigo;
     display: inline-block;
-}
-.contacts {
-    margin-left: 25%;
-    display: inline;
-    float: right;
 }
