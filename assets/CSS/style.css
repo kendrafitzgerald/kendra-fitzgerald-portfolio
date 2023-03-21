@@ -1,13 +1,12 @@
 
 body {
     background-color: lavender;
-    color: black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    color: indigo;
+    font-family: sans-serif;
     font-weight:lighter;
 }
 .header {
-    padding: 30px;
-    background-color: thistle;
+    padding: 30px
 }
 .header h1 {
     display: inline-block;
@@ -25,66 +24,122 @@ body {
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
-    color: black;
+    color: indigo;
 
 }
 
-h2 {
+.fancy {
+    text-align: center;
+    padding: .5em;
+    border: .25em solid indigo;
+    width: 1em;
+    height: 1em;
+    border-radius: 100%;
+}
+
+.fancy:hover {
+    background-color: indigo;
+    border-color: white;
+    color:white;
+}
+
+.fancy:active {
+    background-color: thistle;
+    border-color: white;
+    color: indigo;
+}
+.banner {
+    background-image: url(../images/ocean-banner.png);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+}
+.banner h2 {
+    float: right;
+    margin-top: 5%;
+    margin-right: 5%;
+    color: indigo;
+}
+.profile-pic {
+    background-color: white;
+    border: 5px solid lavender;
+    border-radius: 100%;
+    width: 150px;
     float: right;
 }
-
- h3 {
-    margin-left: 15%;
-    margin-top:0;
-    padding-top: 0;
-    font-size: 25px;
-}  
-
-p {
-    margin-left: 30%;
+.about-me {
+    display: flex;
+    margin-top: 25px;
+    padding: 0;
 }
+.about-me h3 {
+    margin-left: 10%;
+    font-size: 25px;
+}
+.about-me p {
+    margin-left: 10%;
+    margin-bottom: 10%;
+    flex-basis: 50%;
+    font-size: 15px;
+
+}
+
   .worksection {
     display:flex;
-    align-items: flex-start;
-    gap: 30px;
-    
-    
-} 
-.mainimage {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+    justify-content: flex-end;
+    margin-left: 20%;
+    margin-right: 20%;
+}  
+
+.worksection h3 {
+    margin-right: 20%;
+    margin-top: 5%;
+    font-size: 25px;
 }
 
+.mainimage {
+    display: block;
+    flex-grow: 2;
+    
+    
+}
+
+.mainimage img{
+    width: 750px;
+    height: 350px;
+    border: 5px solid indigo;
+}
 .workphotos {
     display: flex;
-    justify-content: center;
-    margin-bottom: 3vh;
-    margin-top: 3vh;
-    gap: 10px;
-}
-.img {
-    width: 365px;
+    flex-wrap: wrap;
+    gap: 5px;
+
+} 
+
+.workphotos img {
+    width: 367px;
     height: 150px;
     border: 5px solid indigo;
 }
-.img:hover {
+.mainimage img:hover, .workphotos img:hover {
     box-shadow: 5px 5px 4px 5px thistle;
 
 }
-.img:active {
+.mainimage img:active, .workphotos img:active {
     border-color: white;
 }
-#large-work-photo {
-    width: 750px;
-    height: 500px;
-    vertical-align: middle;
+
+
+.contacts {
+    display: flex;
 }
-.profile-pic {
-    width: 150px;
-    height: 200px;
-    margin-right: 25%;
-    margin-left: 35%;
-    border: 5px solid indigo;
-    display: inline-block;
+.contacts h3 {
+    margin-left: 10%;
+    margin-top: 5%;
+    font-size: 25px;
+}
+.contacts aside {
+    margin-left: 20%;
+    margin-top: 4%;
+    flex-basis: 50%;
 }

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <title>Kendra Fitzgerald Portfolio</title>
+    <link rel="stylesheet" href="./assets/normalize.css">
     <link rel="stylesheet" href="./assets/CSS/style.css">
 </head>
 <body>
@@ -11,28 +12,29 @@
         <nav>
             <ul>
                 <li>
-                    <a href="#about-me">About Me</a>
+                    <a class="fancy" href="#about-me">About Me</a>
                 </li>
                 <li>
-                    <a href="#work">Work</a>
+                    <a class="fancy" href="#work">Work</a>
                 </li>
                 <li></li>
-                    <a href="#contact-me">Contact Me</a>
+                    <a class="fancy" href="#contact-me">Contact Me</a>
                 </li>
                 <li>
-                    <a href="#resume">Resume</a>
+                    <a class="fancy" href="#resume">Resume</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <section>
-        <h2>See Kendra Code!</h2>
-    </section>
-    <section>
-        <a id="about-me"></a>
-        <h3>About Me</h3>
+
+    <section class="banner">
         <img class="profile-pic" src="./assets/images/profile-pic-professional.png" alt="Girl with brown hair smiling at camera. Wearing white dress 
         with blue and red flowers. Background is green leaves on tree"/>
+        <h2>See Kendra Code!</h2>
+    </section>
+    <section class="about-me">
+        <a id="about-me"></a>
+        <h3>About Me</h3>
         <p>
             Hi! My name is Kendra Fitzgerald and I am on the path to becoming a Full-Stack developer.
             I graduated from Tulane University in 2022 and am currently enrolled in the University of 
@@ -49,36 +51,46 @@
     <section class="worksection">
         <a id="work"></a>
         <h3>Work</h3>
-        <div class="allimages">
-        <div class="mainimage"> 
-            <img class="img" id="large-work-photo" src="./assets/images/cherry-blossom.jpg" alt="Pink cherry blossom tree in full bloom with a blue sky"/>
-            </div>
+        <div>
+        <section class="mainimage"> 
+            <img src="./assets/images/cherry-blossom.jpg" alt="Pink cherry blossom tree in full bloom with a blue sky" />
+            
+        </section>
         <div class="workphotos">
-            <img class="img" src="./assets/images/amsterdam-canal.png" alt="Nine houses side by side in Amsterdam overlooking the canal.
+           <section> <img src="./assets/images/amsterdam-canal.png" alt="Nine houses side by side in Amsterdam overlooking the canal.
         there is a bridge with four bikes on it over the canal. The reflection of the bikes, bridge, and houses are seen
         in the water of the canal."/>
-        <img class="img" src="./assets/images/circle-architecture.png" alt="Spiral building with triangular architecture designs throughut
+        </section>
+        <section>
+        <img src="./assets/images/circle-architecture.png" alt="Spiral building with triangular architecture designs throughut
         the spiral"/>
-        </div>
-
-        <div class="workphotos">
-        <img class="img" src="./assets/images/forest-waterfall.png" alt="Dark green, lush, tropical forest with mossy rocks and small forest-waterfall
+    </section>
+    <section>
+        <img src="./assets/images/forest-waterfall.png" alt="Dark green, lush, tropical forest with mossy rocks and small forest-waterfall
         down the rocks that opens into a dark blue lagoon"/>
-        <img class="img" src="./assets/images/pink-crumple.png" alt="Dark blue background with abstract photo on top that resembles a human face pushing through
+</section>
+<section>
+        <img src="./assets/images/pink-crumple.png" alt="Dark blue background with abstract photo on top that resembles a human face pushing through
         plastic wrap with pink, blue, and green neon lines criss crossing over human"/>
+    </section>
+
         </div>
         </div>
 
         
     </section>
 
-    <section>
+    <section class="contacts">
         <a id="contact-me"></a>
         <h3>Contact Me</h3>
-        <a href="tel:781-718-3684">781-718-3684</a>
-        <a href="mailto:kendrajfitzgerald@gmail.com">kendrajfitzgerald@gmail.com</a>
-        <a href="https://github.com/kendrafitzgerald">GitHub</a>
-        <a href="https://www.linkedin.com/in/kendra-fitzgerald-b73780175/">LinkedIn</a>
+        <aside>
+            <ul>
+        <a class="fancy" href="tel:781-718-3684">781-718-3684</a>
+        <a class="fancy" href="mailto:kendrajfitzgerald@gmail.com">kendrajfitzgerald@gmail.com</a>
+        <a class="fancy" href="https://github.com/kendrafitzgerald">GitHub</a>
+        <a class="fancy" href="https://www.linkedin.com/in/kendra-fitzgerald-b73780175/">LinkedIn</a>
+            </ul>
+            </aside>
     </section>
 
 
