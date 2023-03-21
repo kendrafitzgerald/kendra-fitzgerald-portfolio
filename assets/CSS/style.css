@@ -102,6 +102,7 @@ body {
 .mainimage {
     display: block;
     flex-grow: 2;
+    position: relative;
 }
 
 .mainimage img{
@@ -128,7 +129,24 @@ body {
 .mainimage img:active, .workphotos img:active {
     border-color: white;
 }
+.small-photos-text {
+    position: relative;
+}
+.photo-text {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    box-sizing: border-box;
+    border: 2px solid thistle;
+    background-color: lavender;
+    color: indigo;
+    font-family: sans-serif;
+}
 
+.photo-text:hover {
+    background-color: thistle;
+    color: white;
+}
 
 .contacts {
     display: flex;
