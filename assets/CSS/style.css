@@ -60,6 +60,7 @@ body {
     margin-top: 5%;
     margin-right: 5%;
     color: indigo;
+    background-color: lavender;
 }
 .profile-pic {
     background-color: white;
@@ -74,8 +75,11 @@ body {
     padding: 0;
 }
 .about-me h3 {
-    margin-left: 10%;
-    font-size: 25px;
+    margin-left: 5%;
+    font-size: 40px;
+    border-right: 3px solid indigo;
+    height: 150px;
+    padding: 0 50px 0 0
 }
 .about-me p {
     margin-left: 10%;
@@ -94,9 +98,12 @@ body {
 
 .worksection h3 {
     margin-left: 10%;
-    margin-right: 20%;
     margin-top: 5%;
-    font-size: 25px;
+    margin-right: 10%;
+    font-size: 40px;
+    border-right: 3px solid indigo;
+    padding: 0px 100px 0 100px;
+    height: 700px;
 }
 
 .mainimage {
@@ -150,14 +157,18 @@ body {
 
 .contacts {
     display: flex;
+    align-items: flex-start;
 }
 .contacts h3 {
-    margin-left: 10%;
-    margin-top: 5%;
-    font-size: 25px;
+    margin-left: 5%;
+    font-size: 40px;
+    border-right: 3px solid indigo;
+    height: 150px;
+    padding: 0 15px 0 0
 }
 .contacts aside {
-    margin-left: 20%;
     margin-top: 4%;
+    margin-bottom: 10%;
+    gap: 8px;
     flex-basis: 50%;
 }
