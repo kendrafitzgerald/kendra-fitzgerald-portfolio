@@ -2,67 +2,13 @@
 
 ## Description
 
-I built this website to serve as a professional portfolio of my coding work. I wanted to showcase the HTML and CSS skills I have learned
-as well as create a touchpoint for future projects I complete. I was motivated to do so because as a developer, it is important
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-
-## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+I built this website to serve as a professional portfolio of my coding work. I wanted to showcase the HTML and CSS skills I have learned as well as create a touchpoint for future projects I complete. I was motivated to do so because as a developer, it is important to have a website that holds all of your work for potential employees to be able to reference. This website solves the problem of having a singular place where all of my current and future coding projects can be easily accessed. I learned how to utilize advanced CSS to create an aesthically pleasing website that is functional on multiple viewports. I also learned how to adopt a growth mindset as parts of this project were frustrating. By working through each issue I was able to overcome my frustrations and formulate a professional portfolio.
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
-
-## Credits
-
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
-
-## License
-
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, list them here.
+There are multiple ways to use this website. If you click on the links "About Me", "Work", and "Contact Me" in the navigation bar, you will be taken to the corresponding sections on the webpage. You are also able to scroll down the webpage to navigate the varying sections. If you click on the link "Resume" in the navigation bar, you will be redirected to my LinkedIn profile to view my current resume. In the "Work" section of my portfolio, each image is linked to a project I have completed, and you will be taken to the corresponding site upon clicking the image. The main image corresponds to the accessibility updates I did on the Horiseon site. The four smaller images lead to my current GitHub profile but will soon redirect each image to a completed project. In the "Contact Me" section of the webpage, each link corresponds to a different way to reach me. If you click on the number, you will be able to call my cell phone. If you click on my email, you will be able to email me to connect. The GitHub and LinkedIn links will take you to each of my portfolios for those sites, respectively. Finally, my website is able to be used on devices with viewports larger and smaller than 992px.
+    md
+    ![image of Kendra Fitzgerald's professional portfolio](assets/images/professional-portfolio.png)
 
 ## How to Contribute
-
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+If you have any suggestions on how I can improve my portfolio, please reach out via a link in the contact section, preferably email. I would love any forms of collaboration on this project!
